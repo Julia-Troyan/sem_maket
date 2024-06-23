@@ -48,6 +48,7 @@ p {
 .navigation {
   display: flex;
   justify-content: space-between;
+  
   align-items: center;
 }
 
@@ -64,6 +65,7 @@ p {
 }
 
 .nav-right a {
+  display:flex;
   margin-left: 14px;
 }
 
