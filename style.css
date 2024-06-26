@@ -38,8 +38,8 @@ p {
   line-height: 140%;
   font-size: 20px;
   margin-bottom: 32px;
-  /* width: 556px;
-  height: 56px; */
+  width: 556px;
+  /* height: 56px; */
 }
 
 
@@ -201,25 +201,20 @@ svg {
 
    .section .h1 {
     font-size: 48px;
-    line-height: 120%;
-    width: 900px;
-    height: 50px;
+    max-width: 900px;
     margin-bottom: 24px;
   }
   .section p {
     font-size: 16px;
-    line-height: 140%;
     color: rgba(136, 136, 136, 1);
-    width: 740px;
-    height: 44px;
-  }
+    max-width: 740px;
+   }
  .cardBtn {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   align-items: center;
   text-align: center;
- 
  }
    .cardBtn h2 {
     font-size: 24px;
@@ -227,38 +222,29 @@ svg {
   }
   .cardBtn p {
     font-size: 16px;
-    width: 740px;
-    height: 44px;
-    margin-bottom: 48px;
+    max-width: 740px;
+    margin-bottom: 20px;
   }
   .cardBtn img {
-    width: 100%; 
-    height: auto; 
+    max-width: 100%; 
     margin-bottom: 32px;
    }
 
   .card2 {
     display: flex;
     flex-direction: column;
-  width: 378px;
-  height: 284px;
+  max-width: 378px;
   align-items: center;
   text-align: center;
-  width: 378px;
-  height: 542px;
-  /* padding: 0px;  */
   }
    .cardBig{
     display: flex;
     flex-direction: column;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.06);
-  width: 378px;
-  height: 284px;
+  max-width: 378px;
   text-align: center;
   align-items: center;
-  width: 378px;
-  height: 542px;
-  /* padding: 0px;  */
+
   }
    
   .card2 h2 {
@@ -266,8 +252,7 @@ svg {
     font-size: 24px;
     line-height: 170%;
     color: rgb(0, 0, 0);
-    /* width: 310px;
-    height: 72px; */
+    max-width: 310px;
     margin-left: 34px;
     margin-right: 34px;
   }
@@ -276,8 +261,7 @@ svg {
     font-size: 24px;
     line-height: 170%;
     color: rgb(0, 0, 0);
-    /* width: 310px;
-    height: 72px; */
+    max-width: 310px;
     margin-left: 34px;
     margin-right: 34px;
   }
@@ -286,8 +270,7 @@ svg {
     font-size: 16px;
     line-height: 150%;
     color: rgb(12, 12, 12);
-    width: 310px;
-    height: 29px;
+    max-width: 310px;
     margin-left: 34px;
     margin-right: 34px;
   }
@@ -296,32 +279,29 @@ svg {
     font-size: 16px;
     line-height: 150%;
     color: rgb(12, 12, 12);
-    width: 310px;
-    height: 29px;
+    max-width: 310px;
     margin-left: 34px;
     margin-right: 34px;
   }
   .card2 button, .cardBig button {
-  padding: 16px 32px;
+  padding: 16px 34px;
   margin-bottom: 34px;
-  /* margin-left: 34px;
-  margin-right: 34px; */
+  margin-left: 34px;
+  margin-right: 34px;
   background-color: rgba(242, 88, 34, 1);
   border: none;
   border-radius: 56px;
   font-size: 16px;
- 
   color: #fff;
   cursor: pointer; 
-  width: 166;
-  height: 51px;
+  max-width: 166;
   display: flex;
   align-items: center;
   justify-content: center;
   }
 
-  .card2 button img, .cardBig button img {
-    width: 10px;
-    height: 10px;
+  .btnSvg {
+    max-width: 10px;
+    /* height: 10px; */
     margin-left: 4px;
    }
